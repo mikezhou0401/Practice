@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33d20d47-4fcc-453c-bfcf-69fb6e9f37f6" name="Default Changelist" comment="" />
+    <list default="true" id="33d20d47-4fcc-453c-bfcf-69fb6e9f37f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Mortal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/ADAPHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/ADAPHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/ADHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/ADHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/APHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/APHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/property/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/property/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/ADHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/charactor/ADHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/APHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/charactor/APHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/charactor/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/property/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/property/Item.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +33,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -45,6 +59,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1TdhZkJzZIe6EjSiz4gjlGYfIi2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -67,7 +84,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hero (1)">
+  <component name="RunManager" selected="Application.ADHero">
+    <configuration name="ADHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.webapp.charactor.ADHero" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.webapp.charactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.webapp.charactor.HelloWorld" />
       <module name="Practice" />
@@ -90,13 +120,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hero" />
-      <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ADHero" />
         <item itemvalue="Application.Hero (1)" />
         <item itemvalue="Application.Item" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.TestGiantDragon" />
-        <item itemvalue="Application.Hero" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +195,23 @@
       <workItem from="1574751007692" duration="52000" />
       <workItem from="1574764934541" duration="885000" />
       <workItem from="1574819348112" duration="56000" />
+      <workItem from="1575033097214" duration="7290000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Practice$Hero.ic" NAME="Hero Coverage Results" MODIFIED="1574335780124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

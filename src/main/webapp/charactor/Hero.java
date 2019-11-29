@@ -1,16 +1,19 @@
 package main.webapp.charactor;
 
+import main.webapp.Mortal;
+import main.webapp.property.Item;
+
 public  class  Hero{
     private int id;
     public String name="some hero";
     public float hp;
     float armor;
-    int moveSpeed;
+    int moveSpeed=300;
     static String copyright;//静态属性
-    public Hero(){
-        System.out.println("我是无参数构造函数");
-        name="one hero";
-    }
+//    public Hero(){
+//        System.out.println("hero的构造方法");
+//        name="one hero";
+//    }
     public static Hero h1;
 
     public static Hero  geth1(){
@@ -18,7 +21,8 @@ public  class  Hero{
     }
 
     public Hero(String name){
-        System.out.println("我是带一个参数构造函数");
+        System.out.println("我是带一个参数Hero构造函数");
+        this.name=name;
     }
 
     public Hero(String name ,float hp){
@@ -69,59 +73,25 @@ public  class  Hero{
         h.hp+=50;
         System.out.println(h.hp);
     }
-    //胜利
-    public static void battleWin(){
-        System.out.println("我们胜利了");
-        Hero dieHero=new Hero();
-        dieHero.die();
-    }
     //物品栏容量
     public static int itemCapacity=8;
 
 
+     //吃药
+     public  void useItem(Item i){
+         System.out.println("hero use item");
+        i.effect();
+     }
+     //杀人
+     public  void Kill(Mortal hero){
+        hero.die();
+     }
+     //胜利了
+     public static void battleWin(){
+        System.out.println("Hero battle win");
+     }
 
     public  static  void main(String[] args){
-//        Hero h=new Hero();
-//        AdHero ad=new AdHero();
-        //类型转换指的是把一个引用所指向的对象的类型，转换为另一个引用的类型
-
-        //把ad引用所指向的对象的类型是ADHero
-        //h引用的类型是Hero
-        //把ADHero当做Hero使用，一定可以
-//        h=ad;
-
-
-//        父类转子类，有的时候行，有的时候不行，所以必须进行强制转换。
-//        强制转换的意思就是 转换有风险，风险自担。
-
-//        ad= (AdHero) h;
-
-
-//        Support s=new Support();
-//        h=s;
-//        ad=(AdHero)h;
-
-//        ADHero ad = new ADHero();
-//        APHero ap = new APHero();
-//
-//        Hero h1= ad;
-//        Hero h2= ap;
-//
-//        //判断引用h1指向的对象，是否是ADHero类型
-//        System.out.println(h1 instanceof ADHero);
-//
-//        //判断引用h2指向的对象，是否是APHero类型
-//        System.out.println(h2 instanceof APHero);
-//
-//        //判断引用h1指向的对象，是否是Hero的子类型
-//        System.out.println(h1 instanceof Hero);
-
-
-
-//        ADHero ad = new ADHero();
-//           Hero h=ad;
-//        AD adi = (AD) h;
-//        APHero ap = (APHero) adi;
 
 
 
