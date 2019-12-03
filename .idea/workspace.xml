@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d20d47-4fcc-453c-bfcf-69fb6e9f37f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Mortal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/ADAPHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/ADAPHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/ADHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/ADHero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/APHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/APHero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/property/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/property/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/ADHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/charactor/ADHero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/APHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/charactor/APHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor1/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor1/Support.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/charactor/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/property/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/property/Item.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ADHero">
+  <component name="RunManager" selected="Application.Hero (1)">
     <configuration name="ADHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.webapp.charactor.ADHero" />
       <module name="Practice" />
@@ -165,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ADHero" />
         <item itemvalue="Application.Hero (1)" />
+        <item itemvalue="Application.ADHero" />
         <item itemvalue="Application.Item" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.TestGiantDragon" />
@@ -195,7 +189,7 @@
       <workItem from="1574751007692" duration="52000" />
       <workItem from="1574764934541" duration="885000" />
       <workItem from="1574819348112" duration="56000" />
-      <workItem from="1575033097214" duration="7290000" />
+      <workItem from="1575033097214" duration="11179000" />
     </task>
     <servers />
   </component>

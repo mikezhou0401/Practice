@@ -3,17 +3,18 @@ package main.webapp.charactor;
 import main.webapp.Mortal;
 import main.webapp.property.Item;
 
-public  class  Hero{
+public  class  Hero extends Object{
     private int id;
     public String name="some hero";
     public float hp;
     float armor;
+
     int moveSpeed=300;
     static String copyright;//静态属性
-//    public Hero(){
-//        System.out.println("hero的构造方法");
-//        name="one hero";
-//    }
+    public Hero(){
+        System.out.println("hero的构造方法");
+        name="one hero";
+    }
     public static Hero h1;
 
     public static Hero  geth1(){
@@ -91,9 +92,32 @@ public  class  Hero{
         System.out.println("Hero battle win");
      }
 
+     public String toString(){
+         return name;
+     }
+        public void finalize(){
+         System.out.println("这个英雄正在被回收");
+        }
+
+    @Override
+    public boolean equals(Object o) {
+         if(o instanceof Hero){
+             Hero h=(Hero) o;
+             return this.hp==h.hp;
+         }
+         return false;
+    }
+
     public  static  void main(String[] args){
+        Hero h1=new Hero();
+        h1.hp=300;
+        Hero h2=new Hero();
+        h2.hp=400;
+        Hero h3=new Hero();
+        h3.hp=300;
 
-
+        System.out.println(h1.equals(h2));
+        System.out.println(h1.equals(h3));
 
 
     }
