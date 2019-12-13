@@ -1,15 +1,31 @@
 package main.webapp.property;
 
-public class Item {
+public abstract class Item {
     String  name;
     int price;
 
     public static  Item it;
-    public static Item getIt(){
-        if(null==it){
-            it=new Item();
+//    public static Item getIt(){
+//        if(null==it){
+//            it=new Item();
+//        }
+//        return it;
+//    }
+
+    public String toString(){
+        return name+price;
+    }
+
+    public void finalize(){
+        System.out.println("这个对象正在被回收");
+    }
+
+    public boolean equals(Object o){
+        if (o instanceof  Item){
+           Item i=(Item) o;
+           return this.price==i.price;
         }
-        return it;
+        return false;
     }
 
 
@@ -20,12 +36,15 @@ public class Item {
         System.out.println("物品使用后，可以有效果");
     }
 
+    //定义抽象方法
+    public abstract void disposable();
+
     public static void main(String[] args){
-        Item i1=new LifePotion();
-        Item i2=new MagicPotion();
-        System.out.println("i1 是Item类型，执行effect打印");
-        i1.effect();
-        System.out.println("i2 也是Item类型，执行effect打印");
-        i2.effect();
+        Item i=new Item() {
+            @Override
+            public void disposable() {
+                System.out.println("我是内部类");
+            }
+        };
     }
 }
