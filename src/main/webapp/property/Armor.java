@@ -4,7 +4,7 @@ public abstract class Armor extends main.webapp.property.Item {
     int ac;
 
     public void disposable(){
-        return false;
+        System.out.println("随便说点");
     }
     public static  void main(String args[]){
 //        Armor jia1=new Armor();
