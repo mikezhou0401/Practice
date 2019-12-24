@@ -1,4 +1,4 @@
-package main.webapp.charactor;
+package main.webapp.digit;
 
 
 public class TestChar{
