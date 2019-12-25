@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33d20d47-4fcc-453c-bfcf-69fb6e9f37f6" name="Default Changelist" comment="2019.12.25">
+    <list default="true" id="33d20d47-4fcc-453c-bfcf-69fb6e9f37f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exception/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exception/CheckingAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Date/TestDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Date/TestDate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/MyStringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyStringBuffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/StringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/StringBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/digit/TestChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/digit/TestChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/digit/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/digit/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/charactor/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/charactor/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/exception/TestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/exception/TestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/MyStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/MyStringBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/StringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/StringBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/webapp/charactor/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/TestChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/TestDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/charactor/TestString.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37471265" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -89,13 +95,13 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDate">
-    <configuration name="TestDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.webapp.Date.TestDate" />
+  <component name="RunManager" selected="Application.CheckingAccount">
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.webapp.exception.Account" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.webapp.Date.*" />
+          <option name="PATTERN" value="main.webapp.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,13 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.webapp.digit.TestString" />
+    <configuration name="CheckingAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.webapp.exception.CheckingAccount" />
       <module name="Practice" />
-      <option name="VM_PARAMETERS" value="-Xms128m -Xmx1024m -XX:MaxPermSize=2048m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.webapp.Date.*" />
+          <option name="PATTERN" value="main.webapp.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,61 +122,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicAnnotation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicAnnotation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicAnnotation.setUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicAnnotation" />
-      <option name="METHOD_NAME" value="setUp" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicAnnotation.testCase1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
+    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.webapp.charactor.Hero" />
+      <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="main.webapp.charactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="BasicAnnotation" />
-      <option name="METHOD_NAME" value="testCase1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.webapp.MyStringBuffer" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.webapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.webapp.exception.TestException" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.webapp.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestString" />
-      <item itemvalue="TestNG.BasicAnnotation" />
-      <item itemvalue="TestNG.BasicAnnotation.setUp" />
-      <item itemvalue="TestNG.BasicAnnotation.testCase1" />
-      <item itemvalue="Application.TestDate" />
+      <item itemvalue="Application.TestException" />
+      <item itemvalue="Application.Hero" />
+      <item itemvalue="Application.MyStringBuffer" />
+      <item itemvalue="Application.Account" />
+      <item itemvalue="Application.CheckingAccount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDate" />
-        <item itemvalue="Application.TestString" />
-        <item itemvalue="TestNG.BasicAnnotation" />
-        <item itemvalue="TestNG.BasicAnnotation.setUp" />
-        <item itemvalue="TestNG.BasicAnnotation.testCase1" />
+        <item itemvalue="Application.CheckingAccount" />
+        <item itemvalue="Application.Account" />
+        <item itemvalue="Application.MyStringBuffer" />
+        <item itemvalue="Application.Hero" />
+        <item itemvalue="Application.TestException" />
       </list>
     </recent_temporary>
   </component>
@@ -216,8 +219,31 @@
       <workItem from="1576850905538" duration="8928000" />
       <workItem from="1577012673603" duration="2469000" />
       <workItem from="1577100938475" duration="12271000" />
-      <workItem from="1577187985607" duration="11154000" />
+      <workItem from="1577187985607" duration="11362000" />
+      <workItem from="1577272967712" duration="13745000" />
     </task>
+    <task id="LOCAL-00001" summary="2019.12.25">
+      <created>1577203333621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577203333621</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2019.12.25">
+      <created>1577203424533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577203424533</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2019.12.25">
+      <created>1577203456002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577203456002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,18 +279,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577112185925" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1577192363944">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1577281406561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577192363944" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577281406561" />
     <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576681927822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1576681927822" />
-    <state x="560" y="110" width="1338" height="820" key="CommitChangelistDialog2" timestamp="1577203423596">
+    <state x="560" y="110" width="1338" height="820" key="CommitChangelistDialog2" timestamp="1577203455331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" width="1338" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577203423596" />
+    <state x="560" y="110" width="1338" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577203455331" />
     <state x="694" y="281" key="EnvironmentVariablesDialog" timestamp="1576682193016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -273,50 +299,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1127" y="258" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576680096599" />
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1577203025238">
+    <state width="1219" height="337" key="GridCell.Tab.0.bottom" timestamp="1577288384305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577203025238" />
-    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1577203025238">
+    <state width="1219" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577288384305" />
+    <state width="1219" height="337" key="GridCell.Tab.0.center" timestamp="1577288384305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577203025238" />
-    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1577203025238">
+    <state width="1219" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577288384305" />
+    <state width="1219" height="337" key="GridCell.Tab.0.left" timestamp="1577288384305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577203025238" />
-    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1577203025238">
+    <state width="1219" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577288384305" />
+    <state width="1219" height="337" key="GridCell.Tab.0.right" timestamp="1577288384305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577203025238" />
-    <state width="1877" height="341" key="GridCell.Tab.1.bottom" timestamp="1577203025239">
+    <state width="1219" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577288384305" />
+    <state width="1219" height="337" key="GridCell.Tab.1.bottom" timestamp="1577288384305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577203025239" />
-    <state width="1877" height="341" key="GridCell.Tab.1.center" timestamp="1577203025239">
+    <state width="1219" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577288384305" />
+    <state width="1219" height="337" key="GridCell.Tab.1.center" timestamp="1577288384305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577203025239" />
-    <state width="1877" height="341" key="GridCell.Tab.1.left" timestamp="1577203025239">
+    <state width="1219" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577288384305" />
+    <state width="1219" height="337" key="GridCell.Tab.1.left" timestamp="1577288384305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577203025239" />
-    <state width="1877" height="341" key="GridCell.Tab.1.right" timestamp="1577203025239">
+    <state width="1219" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577288384305" />
+    <state width="1219" height="337" key="GridCell.Tab.1.right" timestamp="1577288384305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577203025239" />
+    <state width="1219" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577288384305" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1577107711724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577107711724" />
-    <state x="340" y="124" width="1290" height="851" key="SettingsEditor" timestamp="1577112162954">
+    <state x="438" y="130" width="1290" height="851" key="SettingsEditor" timestamp="1577278512441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="340" y="124" width="1290" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577112162954" />
-    <state x="1074" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1577187985566">
+    <state x="438" y="130" width="1290" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577278512441" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1577279046706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1074" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577187985566" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1577279046706" />
+    <state x="1074" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1577275517461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1074" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577275517461" />
     <state x="1066" y="464" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576679047896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -333,14 +363,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576679216767" />
-    <state x="1096" y="242" width="672" height="677" key="run.anything.popup" timestamp="1576682548574">
+    <state x="1096" y="242" width="672" height="677" key="run.anything.popup" timestamp="1577276435590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1096" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576682548574" />
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1577194807165">
+    <state x="1096" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577276435590" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1577285782431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577194807165" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577285782431" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Practice$Hero.ic" NAME="Hero Coverage Results" MODIFIED="1574335780124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
