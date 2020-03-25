@@ -2,7 +2,7 @@ package main.webapp.charactor1;
 import main.webapp.Healer;
 import main.webapp.charactor.Hero;
 
-public class Support extends Hero implements Healer {
+public class Support  implements Healer {
 
 
     @Override

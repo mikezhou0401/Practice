@@ -18,9 +18,6 @@ public  class ADHero extends Hero implements AD, Mortal {
     public int getMoveSpeed1(){
         return this.moveSpeed;
     }
-    public int getMoveSpeed2(){
-        return super.moveSpeed;
-    }
 
         public  void  attack(){
             System.out.println(name+"发起了依次攻击");
