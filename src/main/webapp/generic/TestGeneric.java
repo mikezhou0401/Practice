@@ -1,5 +1,4 @@
 package main.webapp.generic;
-import main.webapp.charactor.ADHero;
 import main.webapp.charactor.Hero;
 
 import java.util.ArrayList;
