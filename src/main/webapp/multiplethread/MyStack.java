@@ -6,8 +6,8 @@ public class MyStack<T> {
     public LinkedList<T> l = new LinkedList<>();
 
     public synchronized void push(T t) {
-        while (this.size()==200){
-            try{
+        while (this.size() == 200) {
+            try {
                 this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -18,14 +18,14 @@ public class MyStack<T> {
     }
 
     public synchronized T pull() {
-        while (this.size()==0){
-            try{
+        while (this.size() == 0) {
+            try {
                 this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-        T t= l.removeLast();
+        T t = l.removeLast();
         this.notify();
         return t;
     }
@@ -34,7 +34,7 @@ public class MyStack<T> {
         return l.getLast();
     }
 
-    public  synchronized int size() {
+    public synchronized int size() {
         return l.size();
     }
 

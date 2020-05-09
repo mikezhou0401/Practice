@@ -1,34 +1,32 @@
 package main.webapp.multiplethread;
 
-import main.webapp.charactor.Hero;
+import main.webapp.TestFile;
 
-import java.text.SimpleDateFormat;
-import java.util.*;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.io.File;
+import java.io.FileReader;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
-public class TestThread  {
-
-
+public class TestThread {
 
     public static void main(String[] args) {
-        MyStack m = new MyStack();
-        Producer p1 = new Producer(m);
-        p1.setName("Producer1");
-        Producer p2 = new Producer(m);
-        p2.setName("Producer2");
-        Consumer c1 = new Consumer(m);
-        c1.setName("Consumer1");
-        Consumer c2 = new Consumer(m);
-        c2.setName("Consumer2");
-        Consumer c3 = new Consumer(m);
-        c3.setName("Consumer3");
-        p1.start();
-        p2.start();
-        c1.start();
-        c2.start();
-        c3.start();
+        ThreadPoolExecutor threadPool = new ThreadPoolExecutor(10, 15, 60, TimeUnit.SECONDS,
+                new LinkedBlockingQueue<Runnable>());
+
+        TestFile testFile = new TestFile();
+        File file = new File("e:");
+        testFile.findJavaFile(file);
+
+        while (true) {
+            threadPool.execute(new Runnable() {
+                @Override
+                public void run() {
+                    System.out.println("任务" + threadPool);
+                }
+            });
+        }
+
 
     }
-
-
 }
