@@ -2,37 +2,40 @@ package main.webapp.jdbc;
 
 import main.webapp.charactor.Hero;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class TestJDBC {
     public static void main(String[] args) {
+        String sql = "select * from  wf_task where  enterprise_id=211";
+        //execute(sql);
+        list(5, 3);
+    }
 
+
+    public static void list(int start, int count) {
+        String sql = "select * from  wf_task where  enterprise_id=211";
+        String sql1 = sql + " limit " + start + "," + count;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("数据库驱动加载成功 ！");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        try (Connection c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8",
-                "root", "admin");
+        try (Connection c = DriverManager.getConnection("jdbc:mysql://192.168.1.169:4006/bpm_query?characterEncoding=UTF-8",
+                "yunsom_scm", "T0NqKo42lK");
              Statement s = c.createStatement();
-        ) {
-            Random r = new Random();
 
-            for (int i = 0; i < 100; i++) {
-                String name = "hero" + i;
-                float hp = r.nextInt(1000);
-                int damage = r.nextInt(100);
-                String sql = "Insert into hero values(null," +"name" + "," + hp + "," + damage + ")";
-                s.execute(sql);
-            }
+        ) {
+            c.setAutoCommit(false);
+            s.execute(sql);
+            s.execute(sql1);
+            c.commit();
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
     }
 }

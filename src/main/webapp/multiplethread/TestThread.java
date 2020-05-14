@@ -16,13 +16,13 @@ public class TestThread {
 
         TestFile testFile = new TestFile();
         File file = new File("e:");
-        testFile.findJavaFile(file);
 
-        while (true) {
+
+        while (testFile.findJavaFile(file)) {
             threadPool.execute(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println("任务" + threadPool);
+
                 }
             });
         }

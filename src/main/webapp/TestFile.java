@@ -5,14 +5,13 @@ import java.io.*;
 public class TestFile {
 
 
-
-    public  void findJavaFile(File file) {
+    public boolean findJavaFile(File file) {
         File[] files = file.listFiles();
         if (files != null) {
             for (File f : files) {
                 if (f.isFile()) {
                     if (f.getName().contains(".java")) {
-                     findContent(f);
+                        return true;
                     }
                 }
                 if (f.isDirectory()) {
@@ -20,10 +19,10 @@ public class TestFile {
                 }
             }
         }
-
+        return false;
     }
 
-    public  boolean findContent(File f) {
+    public boolean findContent(File f) {
         try (BufferedReader br = new BufferedReader(new FileReader(f))) {
             String line;
             while ((line = br.readLine()) != null) {
